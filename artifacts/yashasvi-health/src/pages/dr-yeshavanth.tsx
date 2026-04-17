@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Clock, GraduationCap, Stethoscope, FlaskConical, Pill } from "lucide-react";
-import doctorsBothPath from "@assets/E_1776442012787.png";
+import drYeshavanthPath from "@assets/WhatsApp_Image_2026-04-15_at_11.12.41_(1)_1776442797661.jpeg";
 
 const fadeUp = {
   initial: { opacity: 0, y: 30 },
@@ -111,10 +111,9 @@ export default function DrYeshavanth() {
               className="relative overflow-hidden rounded-2xl shadow-xl"
             >
               <img
-                src={doctorsBothPath}
+                src={drYeshavanthPath}
                 alt="Dr. Yeshavanth G - Diabetologist and General Physician at Yashasvi Health Care, Davanagere"
-                className="w-full object-cover object-right"
-                style={{ objectPosition: "70% center" }}
+                className="w-full object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-transparent to-transparent pointer-events-none" />
             </motion.div>

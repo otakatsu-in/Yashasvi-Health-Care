@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2, Clock, GraduationCap, Award } from "lucide-react";
-import drShilpaPath from "@assets/Obstetrician_and_Gynaecologist,_Laparoscopic_surgeon,_Infertil_1776442012796.png";
+import drShilpaPath from "@assets/WhatsApp_Image_2026-04-15_at_11.12.41_1776442797662.jpeg";
 
 const fadeUp = {
   initial: { opacity: 0, y: 30 },

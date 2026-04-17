@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Award, BookOpen, Users, BadgeCheck, ArrowRight } from "lucide-react";
-import doctorsBothPath from "@assets/E_1776442012787.png";
+import drYeshavanthPath from "@assets/WhatsApp_Image_2026-04-15_at_11.12.41_(1)_1776442797661.jpeg";
+import drShilpaPath from "@assets/WhatsApp_Image_2026-04-15_at_11.12.41_1776442797662.jpeg";
 
 const fadeUp = {
   initial: { opacity: 0, y: 30 },
@@ -89,16 +90,33 @@ export default function About() {
               transition={{ duration: 0.7 }}
               className="relative"
             >
-              <div className="rounded-2xl overflow-hidden shadow-xl">
-                <img
-                  src={doctorsBothPath}
-                  alt="Dr. Shilpa Nabapure and Dr. Yeshavanth G - Yashasvi Health Care Specialists"
-                  className="w-full object-cover"
-                />
+              <div className="grid grid-cols-2 gap-4">
+                <div className="rounded-2xl overflow-hidden shadow-xl">
+                  <img
+                    src={drYeshavanthPath}
+                    alt="Dr. Yeshavanth G - General Physician & Diabetologist, Yashasvi Health Care"
+                    className="w-full object-cover object-top"
+                    style={{ aspectRatio: "3/4" }}
+                  />
+                </div>
+                <div className="rounded-2xl overflow-hidden shadow-xl mt-8">
+                  <img
+                    src={drShilpaPath}
+                    alt="Dr. Shilpa Nabapure - Gynaecologist, Yashasvi Health Care"
+                    className="w-full object-cover object-top"
+                    style={{ aspectRatio: "3/4" }}
+                  />
+                </div>
               </div>
-              <div className="absolute -bottom-6 -left-6 bg-primary text-white p-5 rounded-xl shadow-lg hidden md:block">
-                <p className="font-serif text-2xl font-bold">28+</p>
-                <p className="text-sm font-medium text-white/80">Years Combined Experience</p>
+              <div className="mt-4 grid grid-cols-2 gap-3">
+                <div className="bg-primary text-white p-4 rounded-xl text-center">
+                  <p className="font-serif text-2xl font-bold">15+</p>
+                  <p className="text-xs text-white/80">Years — Dr. Yeshavanth G</p>
+                </div>
+                <div className="text-white p-4 rounded-xl text-center" style={{ backgroundColor: "hsl(var(--accent))" }}>
+                  <p className="font-serif text-2xl font-bold">13+</p>
+                  <p className="text-xs text-white/80">Years — Dr. Shilpa Nabapure</p>
+                </div>
               </div>
             </motion.div>
           </div>
