@@ -90,33 +90,16 @@ export default function About() {
               transition={{ duration: 0.7 }}
               className="relative"
             >
-              <div className="grid grid-cols-2 gap-4">
-                <div className="rounded-2xl overflow-hidden shadow-xl">
-                  <img
-                    src={drYeshavanthPath}
-                    alt="Dr. Yeshavanth G - General Physician & Diabetologist, Yashasvi Health Care"
-                    className="w-full object-cover object-top"
-                    style={{ aspectRatio: "3/4" }}
-                  />
-                </div>
-                <div className="rounded-2xl overflow-hidden shadow-xl mt-8">
-                  <img
-                    src={drShilpaPath}
-                    alt="Dr. Shilpa Nabapure - Gynaecologist, Yashasvi Health Care"
-                    className="w-full object-cover object-top"
-                    style={{ aspectRatio: "3/4" }}
-                  />
-                </div>
+              <div className="rounded-2xl overflow-hidden shadow-xl">
+                <img
+                  src={doctorsBothPath}
+                  alt="Dr. Shilpa Nabapure and Dr. Yeshavanth G - Yashasvi Health Care Specialists"
+                  className="w-full object-cover"
+                />
               </div>
-              <div className="mt-4 grid grid-cols-2 gap-3">
-                <div className="bg-primary text-white p-4 rounded-xl text-center">
-                  <p className="font-serif text-2xl font-bold">15+</p>
-                  <p className="text-xs text-white/80">Years — Dr. Yeshavanth G</p>
-                </div>
-                <div className="text-white p-4 rounded-xl text-center" style={{ backgroundColor: "hsl(var(--accent))" }}>
-                  <p className="font-serif text-2xl font-bold">13+</p>
-                  <p className="text-xs text-white/80">Years — Dr. Shilpa Nabapure</p>
-                </div>
+              <div className="absolute -bottom-6 -left-6 bg-primary text-white p-5 rounded-xl shadow-lg hidden md:block">
+                <p className="font-serif text-2xl font-bold">28+</p>
+                <p className="text-sm font-medium text-white/80">Years Combined Experience</p>
               </div>
             </motion.div>
           </div>

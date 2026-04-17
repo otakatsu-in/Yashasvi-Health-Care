@@ -284,7 +284,7 @@ export default function Home() {
               <h2 className="text-3xl font-serif font-bold text-white mb-4">Ready to consult our specialists?</h2>
               <div className="flex flex-col gap-2 text-white/80">
                 <p className="flex items-center gap-2"><Clock className="w-5 h-5 text-primary-foreground" /> Mon - Sat: 1:00 PM - 3:00 PM & 5:00 PM - 9:00 PM</p>
-                <p className="flex items-center gap-2"><Phone className="w-5 h-5 text-primary-foreground" /> +91 0000000000</p>
+                <p className="flex items-center gap-2"><Phone className="w-5 h-5 text-primary-foreground" /> 099722 57307</p>
               </div>
             </div>
             <Button size="lg" asChild className="bg-white text-secondary hover:bg-white/90 rounded-full px-8 h-14 text-lg font-medium whitespace-nowrap shadow-xl">
