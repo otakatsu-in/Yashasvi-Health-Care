@@ -1,0 +1,43 @@
+**ROLE & OBJECTIVE**
+Act as an expert medical copywriter and web developer. Your task is to generate the complete website copy and structural layout for "Yashasvi Health Care", a medical clinic located in Davanagere, Karnataka, India. 
+
+**STRICT NEGATIVE CONSTRAINT**
+Do NOT mention, hint at, or reference any "upcoming" or "future" hospital. The entire focus of this website must be on establishing trust, educating patients, and driving immediate walk-ins for the current clinic.
+
+**BUSINESS & SEO STRATEGY**
+The clinic houses two highly qualified specialists in very different fields (Diabetology and Gynecology). To prevent confusing search engine algorithms, the website must act as a master domain with clearly separated, dedicated pages for each doctor. The goal is to capture local search traffic for "diabetologist in Davanagere" and "gynecologist/pregnancy doctor in Davanagere."
+
+**CLINIC DETAILS**
+* **Name:** Yashasvi Health Care
+* **Location:** Vibha Residency, 7th Main Road, MCC A Block, Davanagere - 577004, Karnataka.
+* **Timings:** Mon-Sat (1:00 PM - 3:00 PM & 5:00 PM - 9:00 PM for General Medicine) | Mon-Sat (1:00 PM - 3:00 PM & 5:00 PM - 7:00 PM for OBG). Sunday is a holiday.
+
+**DOCTOR PROFILES (Use this exact data)**
+
+1. Dr. Yeshavanth G
+* **Titles:** General Physician, Diabetologist, Infectious Disease Specialist.
+* **Experience:** 15+ years. Professor and HOD at SSIMS and RC.
+* **Qualifications:** MBBS, MD, FGID.
+* **Specializations:** Internal medicine, advanced diabetology, infectious diseases, critical care.
+* **Services:** Consultations, lab services, pharmacy.
+* **Patient Education Focus:** Diabetology, Infectious diseases, Heart diseases.
+
+2. Dr. Shilpa Nabapure
+* **Titles:** Obstetrician and Gynaecologist, Laparoscopic Surgeon, Infertility Specialist.
+* **Experience:** 13+ years. Professor and Unit Head at SSIMS and RC. Offers a non-judgemental, patient-friendly approach.
+* **Qualifications:** MBBS, MS, FMAS, DMAS, Fellowship in USG.
+* **Achievements:** University Rank Holder in MS OBG, Vice President of Davanagere OBG Society, Member of World Association of Laparoscopic Surgeons.
+* **Specializations:** High-risk pregnancy, PCOS, Gynecological disorders, infertility, Menopausal disorders.
+* **Services:** Ultrasonography for pregnancy, follicular imaging, minor procedures (Cu T, Mirena insertion/removal, Pap smear, LBC).
+
+**REQUIRED SITEMAP & STRUCTURE**
+1.  **Homepage:** Trust-building overview, clear split directing users to either Dr. Yeshavanth or Dr. Shilpa, quick links to treatments, and embedded educational content.
+2.  **About the Clinic & Doctors:** Master page highlighting the academic and clinical excellence of both providers.
+3.  **Profile: Dr. Yeshavanth:** Dedicated page optimized for general medicine and diabetes search intent.
+4.  **Profile: Dr. Shilpa:** Dedicated page optimized for women's health, pregnancy, and laparoscopic surgery search intent.
+5.  **Treatments & Laboratory:** Categorized list of outpatient procedures, in-house labs, and pharmacy services.
+6.  **Patient Education (Blog):** Hub for SEO-driven articles and short-form video integration.
+7.  **Contact & Appointments:** Embedded map, OPD timings, and a simple booking form.
+
+**YOUR TASK**
+Acknowledge these instructions. Then, begin by generating the complete, SEO-optimized copy for the **Homepage** and the **About the Clinic & Doctors** page. Use a professional, compassionate, and highly authoritative tone.

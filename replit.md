@@ -4,6 +4,23 @@
 
 pnpm workspace monorepo using TypeScript. Each package manages its own dependencies.
 
+## Artifacts
+
+### Yashasvi Health Care Website (`artifacts/yashasvi-health`)
+- **Type**: react-vite (frontend-only, no backend)
+- **Preview Path**: `/` (root)
+- **Stack**: React, Wouter routing, Framer Motion, Tailwind CSS, shadcn/ui, react-hook-form + zod
+- **Pages**:
+  - `/` — Homepage (hero with doctors' images, trust signals, quick links)
+  - `/about` — About the Clinic & Doctors
+  - `/dr-yeshavanth` — Dr. Yeshavanth G profile (SEO: diabetologist in Davanagere)
+  - `/dr-shilpa` — Dr. Shilpa Nabapure profile (SEO: gynaecologist in Davanagere)
+  - `/treatments` — Treatments & Laboratory Services
+  - `/education` — Patient Education Hub (7 articles + video placeholders)
+  - `/contact` — Contact & Appointment Booking Form
+- **Design**: Deep teal primary palette, soft plum accent for Dr. Shilpa's section, Playfair Display serif + Plus Jakarta Sans sans-serif, ivory/cream background
+- **Assets**: Real doctor photos from attached_assets/ (referenced via @assets alias)
+
 ## Stack
 
 - **Monorepo tool**: pnpm workspaces
