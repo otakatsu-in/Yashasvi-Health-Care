@@ -179,7 +179,7 @@ export default function Contact() {
                   <div className="space-y-3">
                     <div className="flex items-center gap-3 text-sm text-muted-foreground">
                       <Phone className="w-4 h-4 text-primary flex-shrink-0" />
-                      <span>+91 0000000000</span>
+                      <span>99722 57307</span>
                     </div>
                     <div className="flex items-center gap-3 text-sm text-muted-foreground">
                       <Mail className="w-4 h-4 text-primary flex-shrink-0" />

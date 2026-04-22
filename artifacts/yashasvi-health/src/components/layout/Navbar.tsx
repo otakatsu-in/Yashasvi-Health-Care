@@ -45,7 +45,7 @@ export function Navbar() {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1.5">
             <Phone className="w-4 h-4 text-primary-foreground/80" />
-            <span className="font-medium">+91 0000000000</span>
+            <span className="font-medium">99722 57307</span>
           </div>
           <Link href="/contact" className="hover:underline">
             Book Appointment
@@ -80,7 +80,7 @@ export function Navbar() {
           
           <div className="hidden lg:flex">
             <Button asChild className="bg-primary hover:bg-primary/90 text-white rounded-full px-6">
-              <Link href="/contact">Book Consultation</Link>
+              <a href="https://wa.me/919972257307?text=Hi%2C%20I%20want%20to%20book%20a%20consultation" target="_blank" rel="noreferrer">Book Consultation</a>
             </Button>
           </div>
 
@@ -115,9 +115,9 @@ export function Navbar() {
             ))}
             <div className="pt-4">
               <Button asChild className="w-full bg-primary text-white rounded-full">
-                <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
+                <a href="https://wa.me/919972257307?text=Hi%2C%20I%20want%20to%20book%20a%20consultation" target="_blank" rel="noreferrer" onClick={() => setIsMobileMenuOpen(false)}>
                   Book Consultation
-                </Link>
+                </a>
               </Button>
             </div>
           </div>

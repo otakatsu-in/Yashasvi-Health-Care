@@ -298,7 +298,7 @@ export default function DrYeshavanth() {
               Whether it's diabetes management, an infectious illness, or a general medicine query — Dr. Yeshavanth G is here to help.
             </p>
             <Button asChild size="lg" className="bg-white text-primary hover:bg-white/90 rounded-full px-8 h-12 font-semibold">
-              <Link href="/contact">Book an Appointment</Link>
+              <a href="https://wa.me/919972257307?text=Hi%2C%20I%20want%20to%20book%20a%20consultation" target="_blank" rel="noreferrer">Book an Appointment</a>
             </Button>
           </motion.div>
         </div>

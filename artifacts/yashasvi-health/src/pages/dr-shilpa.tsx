@@ -353,7 +353,7 @@ export default function DrShilpa() {
               Whether it's pregnancy care, PCOS, infertility, or a gynaecological concern — Dr. Shilpa Nabapure is here with expert, compassionate guidance.
             </p>
             <Button asChild size="lg" className="bg-white hover:bg-white/90 rounded-full px-8 h-12 font-semibold" style={{ color: "hsl(var(--accent))" }}>
-              <Link href="/contact">Book an Appointment</Link>
+              <a href="https://wa.me/919972257307?text=Hi%2C%20I%20want%20to%20book%20a%20consultation" target="_blank" rel="noreferrer">Book an Appointment</a>
             </Button>
           </motion.div>
         </div>

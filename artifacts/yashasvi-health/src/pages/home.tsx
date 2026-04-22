@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Stethoscope, Activity, Heart, ArrowRight, CheckCircle2, Phone, Clock } from "lucide-react";
+import oldCombinedPath from "@assets/E_1776442012787.png";
 import drYeshavanthPath from "@assets/WhatsApp_Image_2026-04-15_at_11.12.41_(1)_1776442797661.jpeg";
 import drShilpaPath from "@assets/WhatsApp_Image_2026-04-15_at_11.12.41_1776442797662.jpeg";
 
@@ -52,42 +53,16 @@ export default function Home() {
               className="relative"
             >
               <div className="absolute -inset-4 bg-gradient-to-r from-primary/10 to-accent/10 rounded-[2.5rem] blur-2xl z-0"></div>
-              <div className="relative z-10 grid grid-cols-2 gap-3">
-                {/* Dr. Yeshavanth */}
-                <div className="rounded-2xl overflow-hidden border border-white/50 shadow-xl bg-white">
-                  <div className="relative">
-                    <img 
-                      src={drYeshavanthPath}
-                      alt="Dr. Yeshavanth G - Diabetologist, Davanagere" 
-                      className="w-full object-cover object-top"
-                      style={{ aspectRatio: "3/4" }}
-                    />
-                    <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-primary/90 to-transparent p-3">
-                      <p className="text-white text-xs font-bold leading-tight">Dr. Yeshavanth G</p>
-                      <p className="text-white/80 text-xs">15+ yrs · Diabetologist</p>
-                    </div>
-                  </div>
-                </div>
-                {/* Dr. Shilpa */}
-                <div className="rounded-2xl overflow-hidden border border-white/50 shadow-xl bg-white mt-6">
-                  <div className="relative">
-                    <img 
-                      src={drShilpaPath}
-                      alt="Dr. Shilpa Nabapure - Gynaecologist, Davanagere" 
-                      className="w-full object-cover object-top"
-                      style={{ aspectRatio: "3/4" }}
-                    />
-                    <div className="absolute bottom-0 inset-x-0 p-3" style={{ background: "linear-gradient(to top, hsl(340 30% 45% / 0.9), transparent)" }}>
-                      <p className="text-white text-xs font-bold leading-tight">Dr. Shilpa Nabapure</p>
-                      <p className="text-white/80 text-xs">13+ yrs · Gynaecologist</p>
-                    </div>
-                  </div>
-                </div>
+              <div className="relative rounded-[2rem] overflow-hidden border border-white/50 shadow-2xl bg-white z-10 p-2">
+                <img 
+                  src={oldCombinedPath} 
+                  alt="Dr. Yeshavanth G and Dr. Shilpa Nabapure" 
+                  className="w-full h-auto rounded-[1.5rem] object-cover"
+                />
               </div>
-              {/* Combined experience badge */}
               <div className="absolute -bottom-4 left-1/2 -translate-x-1/2 bg-white px-5 py-3 rounded-full shadow-xl border border-gray-100 flex items-center gap-3 whitespace-nowrap">
                 <Heart className="h-5 w-5 text-primary" />
-                <p className="text-sm font-bold text-foreground">28+ Years Combined Experience</p>
+                <p className="text-sm font-bold text-foreground">25+ Years Combined Experience</p>
               </div>
             </motion.div>
           </div>
@@ -284,11 +259,11 @@ export default function Home() {
               <h2 className="text-3xl font-serif font-bold text-white mb-4">Ready to consult our specialists?</h2>
               <div className="flex flex-col gap-2 text-white/80">
                 <p className="flex items-center gap-2"><Clock className="w-5 h-5 text-primary-foreground" /> Mon - Sat: 1:00 PM - 3:00 PM & 5:00 PM - 9:00 PM</p>
-                <p className="flex items-center gap-2"><Phone className="w-5 h-5 text-primary-foreground" /> 099722 57307</p>
+                <p className="flex items-center gap-2"><Phone className="w-5 h-5 text-primary-foreground" /> 99722 57307</p>
               </div>
             </div>
             <Button size="lg" asChild className="bg-white text-secondary hover:bg-white/90 rounded-full px-8 h-14 text-lg font-medium whitespace-nowrap shadow-xl">
-              <Link href="/contact">Book Your Visit</Link>
+              <a href="https://wa.me/919972257307?text=Hi%2C%20I%20want%20to%20book%20a%20consultation" target="_blank" rel="noreferrer">Book Your Visit</a>
             </Button>
           </div>
         </div>
