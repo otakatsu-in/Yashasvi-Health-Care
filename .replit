@@ -11,6 +11,27 @@ env = { "CI" = "true" }
 [workflows]
 runButton = "Project"
 
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Yashasvi Health Care"
+
+[[workflows.workflow]]
+name = "Yashasvi Health Care"
+author = "agent"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "PORT=25515 BASE_PATH=/ pnpm --filter @workspace/yashasvi-health run dev"
+waitForPort = 25515
+
 [agent]
 stack = "PNPM_WORKSPACE"
 expertMode = true

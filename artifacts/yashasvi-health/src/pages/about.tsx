@@ -6,6 +6,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Award, BookOpen, Users, BadgeCheck, ArrowRight } from "lucide-react";
 import drYeshavanthPath from "@assets/WhatsApp_Image_2026-04-15_at_11.12.41_(1)_1776442797661.jpeg";
 import drShilpaPath from "@assets/WhatsApp_Image_2026-04-15_at_11.12.41_1776442797662.jpeg";
+import doctorsBothPath from "@assets/E_1776442012787.png";
 
 const fadeUp = {
   initial: { opacity: 0, y: 30 },
