@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "npm run build:artifact",
-    "build:artifact": "npm --prefix artifacts/yashasvi-health run build",
+    "build": "node ./artifacts/yashasvi-health/node_modules/vite/bin/vite.js build --config artifacts/yashasvi-health/vite.config.ts",
+    "build:artifact": "node ./artifacts/yashasvi-health/node_modules/vite/bin/vite.js build --config artifacts/yashasvi-health/vite.config.ts",
     "typecheck:libs": "tsc --build",
     "typecheck": "npm run typecheck:libs && npm --prefix artifacts/yashasvi-health run typecheck"
   },
