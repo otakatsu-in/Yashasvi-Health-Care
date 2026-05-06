@@ -3,11 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "pnpm run typecheck && pnpm -r --if-present run build",
-    "build:npm": "npm run typecheck && npm run build:artifact",
-    "build:artifact": "cd artifacts/yashasvi-health && vite build --config vite.config.ts",
+    "build": "npm run build:artifact",
+    "build:artifact": "npm --prefix artifacts/yashasvi-health run build",
     "typecheck:libs": "tsc --build",
-    "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
+    "typecheck": "npm run typecheck:libs && npm --prefix artifacts/yashasvi-health run typecheck"
   },
   "private": true,
   "devDependencies": {
