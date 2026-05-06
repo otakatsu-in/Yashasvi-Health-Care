@@ -1,0 +1,8 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "W439AZfm6VnZ_-T5Y-kC4"
+uri = "file://yashasvi-health-hostinger.tar.gz"
+type = "unspecified"
+title = "Yashasvi Health Care — Hostinger Deployment Package"
