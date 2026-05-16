@@ -50,16 +50,6 @@ const yeshavanth = [
     ],
   },
   {
-    icon: <HeartPulse className="w-5 h-5 text-primary" />,
-    title: "Critical Care",
-    items: [
-      "ICU-level outpatient monitoring",
-      "Cardiovascular risk assessment",
-      "Acute kidney injury evaluation",
-      "Multi-organ dysfunction counselling",
-    ],
-  },
-  {
     icon: <FlaskConical className="w-5 h-5 text-primary" />,
     title: "In-House Lab Services",
     items: [

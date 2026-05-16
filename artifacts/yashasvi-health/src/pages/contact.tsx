@@ -82,14 +82,33 @@ export default function Contact() {
     },
   });
 
-  function onSubmit(data: AppointmentForm) {
-    console.log("Appointment request:", data);
-    setSubmitted(true);
-    toast({
-      title: "Appointment Request Received",
-      description: `Thank you, ${data.name}. We will contact you shortly to confirm your appointment with ${data.doctor}.`,
-    });
-    form.reset();
+  async function onSubmit(data: AppointmentForm) {
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error("Failed to submit");
+      }
+
+      setSubmitted(true);
+      toast({
+        title: "Appointment Request Received",
+        description: `Thank you, ${data.name}. We will contact you shortly to confirm your appointment with ${data.doctor}.`,
+      });
+      form.reset();
+    } catch (error) {
+      toast({
+        variant: "destructive",
+        title: "Submission Failed",
+        description: "There was a problem sending your request. Please try contacting us by phone.",
+      });
+    }
   }
 
   return (
